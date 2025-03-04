@@ -1,0 +1,12 @@
+Git ----------------
+
+what the heck is it?
+    1. it is a distributed version control system, widely used by developers.
+    2. multiple developers can work together, collaboratly on a project.
+    3. it can efficiently manage and track the changes in source code.
+
+version control system:
+    1. to enable various developers around the world to collaborate.
+    2. to store previously released versions.
+    2. to back-up previously released versions.
+    3. to spin back to previously released versions.
