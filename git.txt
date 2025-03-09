@@ -42,11 +42,11 @@ git commit -m"new commit"
 git push
 
 U see the following error - 
-remote: Repository not found.
-fatal: repository 'https://github.com/Alam425/habikabi.git/' not found
+```remote: Repository not found.
+fatal: repository 'https://github.com/Alam425/habikabi.git/' not found```
 
 Now create a new repository, and after getting the new repository url, give the following command -
-git remote set-url origin https://github.com/Alam425/goovijoovi.git
+```git remote set-url origin <----your new git repository url---->```
 
 Then U R good to go.
 Now add, commit, push.......
