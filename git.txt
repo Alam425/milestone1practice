@@ -34,3 +34,19 @@ Get live website on git >
     6. Wait fon a moment.
     7. Tap on "Pages" again.
     8. Now, you should see your live website link.
+
+
+After cloning a git repository to a local folder, U worked on it. Now, U want to upload to your repository. But, after giving the commands -
+git add .
+git commit -m"new commit"
+git push
+
+U see the following error - 
+remote: Repository not found.
+fatal: repository 'https://github.com/Alam425/habikabi.git/' not found
+
+Now create a new repository, and after getting the new repository url, give the following command -
+git remote set-url origin https://github.com/Alam425/goovijoovi.git
+
+Then U R good to go.
+Now add, commit, push.......
