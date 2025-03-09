@@ -1,0 +1,52 @@
+Git ----------------
+
+
+what the heck is it?
+    1. it is a distributed version control system, widely used by developers.
+    2. multiple developers can work together, collaboratly on a project.
+    3. it can efficiently manage and track the changes in source code.
+
+
+version control system:
+    1. to enable various developers around the world to collaborate.
+    2. to store previously released versions.
+    2. to back-up previously released versions.
+    3. to spin back to previously released versions. 
+
+
+Git setup Guide >
+    1. Download git scm contiguration as per your pc and
+    Install it.
+    2. Go to cmd.
+    3. Type "git -v" and hit enter.
+    4. If you see the version no, then u are good to go.
+    5. Go to github.com and create a new account.
+    6. Then set the git contig via cmd prompt (You'll find it online. Or, while pushing to a new repo, you'll be redirected by cmd itself).
+    7. Then connect the git to the github via code, or browser.
+
+
+Get live website on git >
+    1. Go to github.
+    2. Go the particular repo.
+    3. Go to repo settings.
+    4. Go to "pages".
+    5. Set Branch to "main", or other required branch and hit "Save".
+    6. Wait fon a moment.
+    7. Tap on "Pages" again.
+    8. Now, you should see your live website link.
+
+
+After cloning a git repository to a local folder, U worked on it. Now, U want to upload to your repository. But, after giving the commands -
+git add .
+git commit -m"new commit"
+git push
+
+U see the following error - 
+```remote: Repository not found.
+fatal: repository 'https://github.com/Alam425/habikabi.git/' not found```
+
+Now create a new repository, and after getting the new repository url, give the following command -
+```git remote set-url origin <----your new git repository url---->```
+
+Then U R good to go.
+Now add, commit, push.......
